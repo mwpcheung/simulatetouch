@@ -1,6 +1,10 @@
 
 simulate touch event for iOS10
 
+to touch springboard icon
+ stouch touch 30 120 4   ===> touches the 2nd bttom button
+ stouch touch 590 120 4 ===> touches the 2nd top button
+test @ iOS10.2 14C92 iPhone6S
 
 
 ============ original
