@@ -1,0 +1,35 @@
+---
+archs:           [ arm64 ]
+platform:        ios
+install-name:    /Library/MobileSubstrate/DynamicLibraries/SimulateTouch.dylib
+current-version: 0.0
+compatibility-version: 0.0
+exports:         
+  - archs:           [ arm64 ]
+    symbols:         [ /Users/top/tweak/SimulateTouch/.theos/obj/debug/arm64/SimulateTouch.mm.bac518e5.o, 
+                       , , , , , , , , , , , , , , , , , , , , , , , , 
+                       , , , , , , , , , , , , __GLOBAL__sub_I_SimulateTouch.mm, 
+                       __GLOBAL__sub_I_SimulateTouch.mm, __ZL11CGPointMakedd, 
+                       __ZL11CGPointMakedd, __ZL12SendHIDEventP12__IOHIDEvent, 
+                       __ZL12SendHIDEventP12__IOHIDEvent, __ZL13_MSInitializev, 
+                       __ZL13_MSInitializev, __ZL14MSHookFunctionIFhP19___IOHIDEventSystemPFvPvS2_P14__IOHIDServiceP12__IOHIDEventES2_S2_S2_EEvPT_SB_PSB_, 
+                       __ZL14MSHookFunctionIFhP19___IOHIDEventSystemPFvPvS2_P14__IOHIDServiceP12__IOHIDEventES2_S2_S2_EEvPT_SB_PSB_, 
+                       __ZL15messageCallBackP15__CFMessagePortiPK8__CFDataPv, 
+                       __ZL15messageCallBackP15__CFMessagePortiPK8__CFDataPv, 
+                       __ZL16SendTouchesEventj, __ZL16SendTouchesEventj, 
+                       __ZL17original_callback, __ZL17original_callback, 
+                       __ZL18SimulateTouchEventjii7CGPoint, __ZL18SimulateTouchEventjii7CGPoint, 
+                       __ZL19getExtraIndexNumberv, __ZL19getExtraIndexNumberv, 
+                       __ZL20iohid_event_callbackPvS_P14__IOHIDServiceP12__IOHIDEvent, 
+                       __ZL20iohid_event_callbackPvS_P14__IOHIDServiceP12__IOHIDEvent, 
+                       '__ZL21$IOHIDEventSystemOpenP19___IOHIDEventSystemPFvPvS1_P14__IOHIDServiceP12__IOHIDEventES1_S1_S1_', 
+                       '__ZL21$IOHIDEventSystemOpenP19___IOHIDEventSystemPFvPvS1_P14__IOHIDServiceP12__IOHIDEventES1_S1_S1_', 
+                       __ZL21_IOHIDEventSystemOpen, __ZL21_IOHIDEventSystemOpen, 
+                       __ZL4iOS7, __ZL4iOS7, __ZL8lastPort, __ZL8lastPort, 
+                       __ZL9STTouches, __ZL9STTouches, '__ZN12_GLOBAL__N_113$MSInitializeE', 
+                       '__ZN12_GLOBAL__N_113$MSInitializeE', __ZZL12SendHIDEventP12__IOHIDEventE7client_, 
+                       __ZZL12SendHIDEventP12__IOHIDEventE7client_, ___cxx_global_var_init, 
+                       ___cxx_global_var_init ]
+    objc-classes:    [ _STTouch ]
+    objc-ivars:      [ _STTouch.point, _STTouch.type ]
+...

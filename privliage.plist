@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>platform-application</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>apple</string>
+		<string>com.apple.certificates</string>
+		<string>com.apple.hap.pairing</string>
+		<string>com.apple.identities</string>
+		<string>lockdown-identities</string>
+		<string>com.apple.apsd</string>
+	</array>
+	<key>get-task-allow</key>
+	<true/>
+	<key>task_for_pid-allow</key>
+	<true/>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.security.system-container</key>
+	<true/>
+	<key>com.apple.springboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.skip-library-validation</key>
+	<true/>
+	<key>com.apple.private.security.no-container</key>
+	<true/>
+</dict>
+</plist>
