@@ -7,7 +7,8 @@
 ### touch top
  stouch touch 590 120 4 ===> touches the 2nd top button
 test @ iOS10.2 14C92 iPhone6S
-
+### warnning
+ iOS11 touch test failed
 
 ============ original
 SimulateTouch
